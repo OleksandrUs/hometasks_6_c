@@ -1,0 +1,31 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+# Toolchain: GNU Tools for STM32 (9-2020-q2-update)
+################################################################################
+
+# Add inputs and outputs from these tool invocations to the build variables 
+C_SRCS += \
+D:/_GL_ProCamp/hometasks_6_c/uart_echo/Core/Src/main.c \
+../Application/User/Core/syscalls.c \
+../Application/User/Core/sysmem.c \
+../Application/User/Core/uart_driver.c 
+
+OBJS += \
+./Application/User/Core/main.o \
+./Application/User/Core/syscalls.o \
+./Application/User/Core/sysmem.o \
+./Application/User/Core/uart_driver.o 
+
+C_DEPS += \
+./Application/User/Core/main.d \
+./Application/User/Core/syscalls.d \
+./Application/User/Core/sysmem.d \
+./Application/User/Core/uart_driver.d 
+
+
+# Each subdirectory must supply rules for building sources it contributes
+Application/User/Core/main.o: D:/_GL_ProCamp/hometasks_6_c/uart_echo/Core/Src/main.c Application/User/Core/subdir.mk
+	arm-none-eabi-gcc "$<" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32F303xC -c -I../../Core/Inc -I../../Drivers/CMSIS/Device/ST/STM32F3xx/Include -I../../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "$@"
+Application/User/Core/%.o: ../Application/User/Core/%.c Application/User/Core/subdir.mk
+	arm-none-eabi-gcc "$<" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32F303xC -c -I../../Core/Inc -I../../Drivers/CMSIS/Device/ST/STM32F3xx/Include -I../../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "$@"
+

@@ -1,0 +1,13 @@
+/*
+ * uart_echo.h
+ *
+ *  Created on: 1 сент. 2021 г.
+ *      Author: Alexander
+ */
+
+#ifndef APPLICATION_USER_CORE_UART_ECHO_H_
+#define APPLICATION_USER_CORE_UART_ECHO_H_
+
+
+
+#endif /* APPLICATION_USER_CORE_UART_ECHO_H_ */

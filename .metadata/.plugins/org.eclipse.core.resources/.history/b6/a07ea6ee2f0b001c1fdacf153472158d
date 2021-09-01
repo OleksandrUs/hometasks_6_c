@@ -1,0 +1,6 @@
+uart_driver.c:16:6:uart_init	4	static
+uart_driver.c:37:6:uart_open	4	static
+uart_driver.c:51:5:uart_read	4	static
+uart_driver.c:61:6:uart_write	16	static
+uart_driver.c:71:6:uart_close	4	static
+uart_driver.c:84:6:uart_deinit	4	static

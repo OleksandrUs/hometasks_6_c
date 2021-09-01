@@ -1,0 +1,6 @@
+"./Application/User/Core/main.o"
+"./Application/User/Core/syscalls.o"
+"./Application/User/Core/sysmem.o"
+"./Application/User/Core/uart_driver.o"
+"./Application/User/Startup/startup_stm32f303vctx.o"
+"./Drivers/CMSIS/system_stm32f3xx.o"
